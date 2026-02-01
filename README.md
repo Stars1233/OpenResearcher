@@ -1,14 +1,12 @@
-<div align="center">
-  <picture>
-      <img src="./assets/docs/openresearcher-logo.webp" width="100%">
-  </picture>
-</div>
+<p align="center">
+  <img src="./assets/docs/openresearcher-logo.webp" height="42" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/Open-87CEEB?style=flat-square&labelColor=87CEEB" height="42">
+  <img src="https://img.shields.io/badge/Researcher-B19CD9?style=flat-square&labelColor=B19CD9" height="42">
+</p>
 
-<hr>
+<div align="center" style="line-height: 1; margin-top: 16px;">
 
-<div align="center" style="line-height: 1;">
-
-[![MODELS](https://img.shields.io/badge/Models-5EDDD2?style=for-the-badge&logo=huggingface&logoColor=ffffff&labelColor)](https://huggingface.co/OpenResearcher)
+[![Models](https://img.shields.io/badge/Models-FFD700?style=for-the-badge&logo=huggingface&logoColor=ffffff)](https://huggingface.co/OpenResearcher)
 [![Blog](https://img.shields.io/badge/Blog-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://openresearcher.github.io/)
 
 </div>
