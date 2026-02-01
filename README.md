@@ -34,12 +34,12 @@ source .venv/bin/activate
 ### Tevatron (for BrowseComp-Plus local search)
 
 ```bash
+uv pip install -e .
+
 git clone https://github.com/texttron/tevatron.git
 cd tevatron
 uv pip install -e .
 cd ..
-
-uv pip install -e .
 ```
 
 ---
