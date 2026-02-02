@@ -31,7 +31,7 @@
 ## 🏆 Deep Research Benchmark Results
 
 ## ✨ Features
-+ 🔑 **Fully Open-Source Recipe** — We open-source our 96K high-quality DeepResearch trajectory dataset (mean turn > 50), the top-performing 30B-A3B model trained on it, distillation recipe, and a lightweight DeepResearch evaluation framework.
++ 🔑 **Fully Open-Source Recipe** — We fully open-source our 96K high-quality [DeepResearch trajectory dataset](https://huggingface.co/datasets/OpenResearcher/OpenResearcher-Dataset) (mean turn > 50), the top-performing [30B-A3B model](https://huggingface.co/OpenResearcher/Nemotron-3-Nano-30B-A3B) trained on it, [distillation recipe](https://boiled-honeycup-4c7.notion.site/OpenResearcher-A-Fully-Open-Pipeline-for-Long-Horizon-Deep-Research-Trajectory-Synthesis-2f7e290627b5800cb3a0cd7e8d6ec0ea?source=copy_link), and a lightweight [DeepResearch evaluation framework]() to progress deep research.
 
 + 💰 **Highly Scalable and Low-Cost** — We generate DeepResearch trajectories at massive scale using self-built retriever over a dedicated ~11B-token corpus, eliminating the need for external Search APIs. This scalable retriever significantly reduces training costs and can be extended for RL training in the future.
 
