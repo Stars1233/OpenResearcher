@@ -30,6 +30,13 @@
 
 ## 🏆 Deep Research Benchmark Results
 
+## ✨ Features
++ 🔑 **Fully Open-Source Recipe** — We open-source our 96K high-quality DeepResearch trajectory dataset (mean turn > 50), the top-performing 30B-A3B model trained on it, distillation recipe, and a lightweight DeepResearch evaluation framework.
+
++ 💰 **Highly Scalable and Low-Cost** — We generate DeepResearch trajectories at massive scale using self-built retriever over a dedicated ~11B-token corpus, eliminating the need for external Search APIs. This scalable retriever significantly reduces training costs and can be extended for RL training in the future.
+
++ 🚀 **Remarkable Performance on DeepResearch Benchmarks** — OpenResearcher demonstrates leading performance across a range of deep search benchmarks, including BrowseComp-Plus, BrowseComp, GAIA, xbench-DeepSearch.
+
 ## 📋 Table of Contents
 
 - [🛠 Environment Setup](#-environment-setup)
@@ -38,7 +45,7 @@
 - [🔍 Configuration](#-configuration)
 - [🚀 Get Started](#-get-started)
   - [Example 1: BrowseComp-Plus with Local Search Engine](#example-1-browsecomp-plus-with-local-search-engine)
-  - [Example 2: Using Serper API (No Local Search Needed)](#example-2-using-serper-api-no-local-search-needed)
+  - [Example 2: GAIA with Serper API (No Local Search Needed)](#example-2-gaia-with-serper-api-no-local-search-needed)
   - [Evaluation](#evaluation)
 - [🔬 Benchmark OpenResearcher](#-benchmark-openresearcher)
   - [Quick Commands](#quick-commands)
@@ -47,7 +54,6 @@
 - [🙏 Acknowledgements](#-acknowledgements)
 - [✨ Contributing](#-contributing)
 - [📚 Citation](#-citation)
-
 ## 🛠 Environment Setup
 We run this repo on the following setup:
 + 8 * A100 80G Nvidia GPUs
