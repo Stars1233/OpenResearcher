@@ -1,18 +1,32 @@
 <p align="center">
-  <img src="./assets/docs/openresearcher-logo.webp" height="82" style="vertical-align: middle;">
-  <img src="./assets/docs/openresearcher-title.svg" height="82" style="vertical-align: middle;">
-</p>
+  <img src="./assets/docs/or-logo1.png" height="82" style="vertical-align: middle;">
+    <span style="
+    background: linear-gradient(to right, #7BCFBD, #D5EFF3, #987BE4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 42px;
+    ">
+    OpenResearcher
+</span></p>
 
 <div align="center" style="line-height: 1; margin-top: 16px;">
 
-[![Models](https://img.shields.io/badge/Models-CC9900?style=for-the-badge&logo=huggingface&logoColor=ffffff)](https://huggingface.co/OpenResearcher)
+[![Models](https://img.shields.io/badge/Models-FFD966?style=for-the-badge&logo=huggingface&logoColor=ffffff)](https://huggingface.co/OpenResearcher)
+[![Datasets](https://img.shields.io/badge/Datasets-FFB7B2?style=for-the-badge&logo=huggingface&logoColor=ffffff)](#)
 [![Blog](https://img.shields.io/badge/Blog-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://openresearcher.github.io/)
+[![WandB Logs](https://img.shields.io/badge/WandB%20Logs-B5EAD7?style=for-the-badge&logo=weightsandbiases&logoColor=white)](#)
+[![Eval Logs](https://img.shields.io/badge/Eval%20Logs-C7CEEA?style=for-the-badge&logo=weightsandbiases&logoColor=white)](#)
 
 </div>
 
 <p align="center">
 🤗 <a href="https://huggingface.co/OpenResearcher" target="_blank">HuggingFace</a> ｜
-📰 <a href="https://openresearcher.github.io/" target="_blank">Blog</a>
+🤗 <a href="#" target="_blank">Datasets</a> ｜
+📰 <a href="https://openresearcher.github.io/" target="_blank">Blog</a> ｜
+📈 <a href="#" target="_blank">WandB Log</a> ｜
+📊 <a href="#" target="_blank">Eval Logs</a>
 </p>
 
 # Introduction
