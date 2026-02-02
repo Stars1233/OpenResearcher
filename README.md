@@ -162,7 +162,6 @@ We benchmark our OpenResearcher-30B-A3B using below deepresearch benchmarks:
 | **[GAIA-text](https://arxiv.org/abs/2311.12983)** | `gaia` | 103 | EN | serper | Text-only subset of GAIA benchmark (dev split) |
 | **[xbench-DeepResearch](https://github.com/THUDM/xbench)** | `xbench` | 100 | ZH | serper | DeepSearch benchmark with encrypted test cases |
 | **[SEAL-0](https://arxiv.org/abs/2506.01062)** | `seal` | 111 | EN | serper | Hardest subset of SealQA questions |
-ncrypted test cases |
 
 For more info about these deepresearch benchmarks, see [benchmarks.md](assets/docs/benchmarks.md) 
 
