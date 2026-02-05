@@ -1,33 +1,31 @@
 # Script Parameters Reference
 
-## run_agent.sh
+## scripts/start_search_service.sh
 
-Main script for running the agent on benchmarks.
+Start local search service for BrowseComp-Plus benchmark.
 
 ```bash
-bash run_agent.sh [output_dir] [base_port] [num_servers] [dataset_name] [browser_backend] [model_path]
+bash scripts/start_search_service.sh [searcher_type] [port] [cuda_visible_devices]
 ```
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
-| `output_dir` | `results/browsecomp/output` | Output directory for results |
-| `base_port` | `8002` | Base port number for vLLM servers |
-| `num_servers` | `3` | Number of vLLM servers to use |
-| `dataset_name` | `browsecomp` | Dataset key (see benchmarks.md) |
-| `browser_backend` | `local` | `local` or `serper` |
-| `model_path` | `OpenResearcher/Nemotron-3-Nano-30B-A3B` | Model name or path |
+| `searcher_type` | `dense` | `bm25` or `dense` |
+| `port` | `8000` | Port for search service |
+| `cuda_visible_devices` | `0` | GPU ID for dense searcher (ignored for BM25) |
+
+**Important!! You should make sure there is sufficient GPU memory for Dense search -- which would cost about 15GB
 
 **Examples:**
 ```bash
-# BrowseComp-Plus with local search
-bash run_agent.sh results/bc 8001 2 browsecomp_plus local OpenResearcher/Nemotron-3-Nano-30B-A3B
+# BM25 search (CPU-based, lightweight)
+bash scripts/start_search_service.sh bm25 8000
 
-# GAIA with Serper API
-bash run_agent.sh results/gaia 8001 2 gaia serper OpenResearcher/Nemotron-3-Nano-30B-A3B
+# Dense search (GPU-based, better quality)
+bash scripts/start_search_service.sh dense 8000 0
 ```
 
 ---
-
 ## scripts/start_nemotron_servers.sh
 
 Start multiple vLLM servers with tensor parallelism.
@@ -57,33 +55,33 @@ bash scripts/start_nemotron_servers.sh 4 8001 0,1,2,3
 
 ---
 
-## scripts/start_search_service.sh
+## run_agent.sh
 
-Start local search service for BrowseComp-Plus benchmark.
+Main script for running the agent on benchmarks.
 
 ```bash
-bash scripts/start_search_service.sh [searcher_type] [port] [cuda_visible_devices]
+bash run_agent.sh [output_dir] [base_port] [num_servers] [dataset_name] [browser_backend] [model_path]
 ```
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
-| `searcher_type` | `dense` | `bm25` or `dense` |
-| `port` | `8000` | Port for search service |
-| `cuda_visible_devices` | `0` | GPU ID for dense searcher (ignored for BM25) |
-
-**Important!! You should make sure there is sufficient GPU memory for Dense search -- which would cost about 15GB
+| `output_dir` | `results/browsecomp/output` | Output directory for results |
+| `base_port` | `8002` | Base port number for vLLM servers |
+| `num_servers` | `3` | Number of vLLM servers to use |
+| `dataset_name` | `browsecomp` | Dataset key (see benchmarks.md) |
+| `browser_backend` | `local` | `local` or `serper` |
+| `model_path` | `OpenResearcher/Nemotron-3-Nano-30B-A3B` | Model name or path |
 
 **Examples:**
 ```bash
-# BM25 search (CPU-based, lightweight)
-bash scripts/start_search_service.sh bm25 8000
+# BrowseComp-Plus with local search
+bash run_agent.sh results/bc 8001 2 browsecomp_plus local OpenResearcher/Nemotron-3-Nano-30B-A3B
 
-# Dense search (GPU-based, better quality)
-bash scripts/start_search_service.sh dense 8000 0
+# GAIA with Serper API
+bash run_agent.sh results/gaia 8001 2 gaia serper OpenResearcher/Nemotron-3-Nano-30B-A3B
 ```
 
 ---
-
 ## scripts/stop_servers.sh
 
 Stop all running vLLM servers.
