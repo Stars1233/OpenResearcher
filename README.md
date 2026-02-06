@@ -10,15 +10,14 @@
   <a href="https://huggingface.co/datasets/OpenResearcher/OpenResearcher-Dataset"><img src="https://img.shields.io/badge/Dataset-FFB7B2?style=for-the-badge&logo=huggingface&logoColor=ffffff" alt="Dataset"></a>
   <a href="https://huggingface.co/OpenResearcher/Nemotron-3-Nano-30B-A3B"><img src="https://img.shields.io/badge/Model-FFD966?style=for-the-badge&logo=huggingface&logoColor=ffffff" alt="Model"></a>
     <a href="https://huggingface.co/spaces/OpenResearcher/OpenResearcher"><img src="https://img.shields.io/badge/Demo-F97316.svg?style=for-the-badge&logo=gradio&logoColor=white" alt="Demo"></a>
-  <!-- <a href="https://wandb.ai/dongfu/nano-v3-sft-search"><img src="https://img.shields.io/badge/WandB%20Logs-48B5A3?style=for-the-badge&logo=weightsandbiases&logoColor=white" alt="WandB Logs"></a>
-  <a href="https://huggingface.co/datasets/OpenResearcher/OpenResearcher-Eval-Logs/tree/main"><img src="https://img.shields.io/badge/Eval%20Logs-755BB4?style=for-the-badge&logo=google-sheets&logoColor=white" alt="Eval Logs"></a> -->
+  <a href="https://wandb.ai/dongfu/nano-v3-sft-search"><img src="https://img.shields.io/badge/WandB%20Logs-48B5A3?style=for-the-badge&logo=weightsandbiases&logoColor=white" alt="WandB Logs"></a>
+  <a href="https://huggingface.co/datasets/OpenResearcher/OpenResearcher-Eval-Logs/tree/main"><img src="https://img.shields.io/badge/Eval%20Logs-755BB4?style=for-the-badge&logo=google-sheets&logoColor=white" alt="Eval Logs"></a>
 </div>
 
 </div>
 <p align="center">
   🤗 <a href="https://huggingface.co/collections/TIGER-Lab/openresearcher" target="_blank">HuggingFace</a> ｜
-<img src="assets/imgs/notion.svg" width="15px" style="display:inline;"> <a href="https://boiled-honeycup-4c7.notion.site/OpenResearcher-A-Fully-Open-Pipeline-for-Long-Horizon-Deep-Research-Trajectory-Synthesis-2f7e290627b5800cb3a0cd7e8d6ec0ea?source=copy_link" target="_blank">Blog</a> ｜ <img src="assets/imgs/wandb.png" width="15px" style="display:inline;"> <a href="https://wandb.ai/dongfu/nano-v3-sft-search" target="_blank">Wandb Logs</a> | <img src="assets/imgs/eval.png" width="15px" style="display:inline;"> <a href="https://huggingface.co/datasets/OpenResearcher/OpenResearcher-Eval-Logs/tree/main" target="_blank">Eval Logs</a> | <img src="assets/imgs/slack.png" width="14px" style="display:inline;"> <a href="https://join.slack.com/t/openresearcher/shared_invite/zt-3p0r32cky-PqtZkVjjWIAI14~XwcRMfQ" target="_blank">Slack</a> | <img src="assets/imgs/wechat.svg" width="14px" style="display:inline;"> <a href="assets/imgs/wechat_group.png" target="_blank">WeChat</a> 
-
+<img src="assets/imgs/notion.svg" width="15px" style="display:inline;"> <a href="https://boiled-honeycup-4c7.notion.site/OpenResearcher-A-Fully-Open-Pipeline-for-Long-Horizon-Deep-Research-Trajectory-Synthesis-2f7e290627b5800cb3a0cd7e8d6ec0ea?source=copy_link" target="_blank">Blog</a> ｜<img src="assets/imgs/slack.png" width="14px" style="display:inline;"> <a href="https://join.slack.com/t/openresearcher/shared_invite/zt-3p0r32cky-PqtZkVjjWIAI14~XwcRMfQ" target="_blank">Slack</a> | <img src="assets/imgs/wechat.svg" width="14px" style="display:inline;"> <a href="assets/imgs/wechat_group.png" target="_blank">WeChat</a> 
 </p>
 
 ## 💥 Introduction
