@@ -6,7 +6,7 @@
 TP_SIZE=${1:-2}
 BASE_PORT=${2:-8001}
 CUDA_VISIBLE_DEVICES=${3:-0,1,2,3}
-MODEL=${4:-"OpenResearcher/Nemotron-3-Nano-30B-A3B"}
+MODEL=${4:-"OpenResearcher/OpenResearcher-30B-A3B"}
 
 # Get script directory and project root
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

@@ -7,7 +7,7 @@ BASE_PORT=${2:-8001}
 NUM_SERVERS=${3:-2}
 DATASET_NAME=${4:-"browsecomp-plus"}
 BROWSER_BACKEND=${5:-"local"}
-MODEL=${6:-"OpenResearcher/Nemotron-3-Nano-30B-A3B"}
+MODEL=${6:-"OpenResearcher/OpenResearcher-30B-A3B"}
 
 
 SEARCH_URL="http://localhost:8000"

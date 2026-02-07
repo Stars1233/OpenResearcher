@@ -70,15 +70,15 @@ bash run_agent.sh [output_dir] [base_port] [num_servers] [dataset_name] [browser
 | `num_servers` | `3` | Number of vLLM servers to use |
 | `dataset_name` | `browsecomp` | Dataset key (see benchmarks.md) |
 | `browser_backend` | `local` | `local` or `serper` |
-| `model_path` | `OpenResearcher/Nemotron-3-Nano-30B-A3B` | Model name or path |
+| `model_path` | `OpenResearcher/OpenResearcher-30B-A3B` | Model name or path |
 
 **Examples:**
 ```bash
 # BrowseComp-Plus with local search
-bash run_agent.sh results/bc 8001 2 browsecomp_plus local OpenResearcher/Nemotron-3-Nano-30B-A3B
+bash run_agent.sh results/bc 8001 2 browsecomp_plus local OpenResearcher/OpenResearcher-30B-A3B
 
 # GAIA with Serper API
-bash run_agent.sh results/gaia 8001 2 gaia serper OpenResearcher/Nemotron-3-Nano-30B-A3B
+bash run_agent.sh results/gaia 8001 2 gaia serper OpenResearcher/OpenResearcher-30B-A3B
 ```
 
 ---
