@@ -117,7 +117,7 @@ OPENAI_API_KEY=your_key        # Get from: https://platform.openai.com/api-keys
 
 
 ## 🚀 Quick Start
-**Prerequisites:** Install dependencies and configure API keys (see [Configuration](#-configuration))
+**Prerequisites:** Install dependencies and configure API keys (see [Environment Setup](#-environment-setup) and [Configuration](#-configuration))
 
 1. **Deploy OpenResearcher-30B-A3B**:
 
