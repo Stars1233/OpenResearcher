@@ -279,7 +279,7 @@ python eval.py --input_dir [INPUT_DIR]
     </td>
     <td align="center">
         <a href="https://github.com/erenup">
-            <img src="https://media.licdn.com/dms/image/v2/C5603AQHqewKc14kzXg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1648383444846?e=1771459200&v=beta&t=I6OTYpCSLp0LqclGi2nguJbEDZ_Aw01H1Y4kkyDYZC8" width="75px;" alt="Ping Nie"/>
+            <img src="https://github.com/erenup.png" width="75px;" alt="Ping Nie"/>
             <br />
             <sub><b>Ping Nie</b></sub>
         </a>
