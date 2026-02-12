@@ -24,7 +24,7 @@
 
 ## 📣 News 
 + **[2026.2.12]**  🔥 Excited to see **OpenResearcher** powering deep research trajectory generation in [**NVIDIA’s NeMo Data Designer**](https://nvidia-nemo.github.io/DataDesigner/latest/devnotes/deep-research-trajectories-with-nemo-data-designer-and-mcp-tool-use/)!
-+ **[2026.2.10]** 🚀 Our X [post](https://x.com/DongfuJiang/status/2020946549422031040) received **1K+** likes! Feel free to check out the post and join the discussion! 💬
++ **[2026.2.10]** 🚀 Our X [post](https://x.com/DongfuJiang/status/2020946549422031040) received **1.2K+** likes! Feel free to check out the post and join the discussion! 💬
 
 ## 💥 Introduction
 
