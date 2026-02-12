@@ -11,7 +11,7 @@
   <a href="https://huggingface.co/datasets/OpenResearcher/OpenResearcher-Dataset"><img src="https://img.shields.io/badge/Dataset-FFB7B2?style=for-the-badge&logo=huggingface&logoColor=ffffff" alt="Dataset"></a>
   <a href="https://huggingface.co/OpenResearcher/OpenResearcher-30B-A3B"><img src="https://img.shields.io/badge/Model-FFD966?style=for-the-badge&logo=huggingface&logoColor=ffffff" alt="Model"></a>
     <a href="https://huggingface.co/spaces/OpenResearcher/OpenResearcher"><img src="https://img.shields.io/badge/Demo-F97316.svg?style=for-the-badge&logo=gradio&logoColor=white" alt="Demo"></a>
-  <!-- <a href="https://wandb.ai/dongfu/nano-v3-sft-search"><img src="https://img.shields.io/badge/WandB%20Logs-48B5A3?style=for-the-badge&logo=weightsandbiases&logoColor=white" alt="WandB Logs"></a> -->
+  <a href="https://x.com/zhuofengli96475/status/2021682952074097086"><img src="https://img.shields.io/badge/Video-CA4245?style=for-the-badge&logo=youtube&logoColor=white" alt="Video"></a>
   <a href="https://huggingface.co/datasets/OpenResearcher/OpenResearcher-Eval-Logs/tree/main"><img src="https://img.shields.io/badge/Eval%20Logs-755BB4?style=for-the-badge&logo=google-sheets&logoColor=white" alt="Eval Logs"></a>
 </div>
 
