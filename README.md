@@ -62,7 +62,7 @@
   - [Example 2: GAIA with Serper API (No Local Search Needed)](#example-2-gaia-with-serper-api-no-local-search-needed)
   - [Evaluation](#evaluation)
   - [Quick Commands](#quick-commands)
-- [🧪 (Optional) Train Your Own OpenResearcher](#optional-train-your-own-openresearcher)
+- [🧪 (Optional) Train Your Own OpenResearcher](#-optional-train-your-own-openresearcher)
 - [🤝 Core Contributors](#-core-contributors)
 - [🎓 Advisors](#-advisors)
 - [🙏 Acknowledgements](#-acknowledgements)
