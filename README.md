@@ -256,7 +256,7 @@ python eval.py --input_dir [INPUT_DIR]
 
 Our [OpenResearcher-30B-A3B](https://huggingface.co/OpenResearcher/OpenResearcher-30B-A3B) is trained using [Megatron-LM](https://github.com/NVIDIA/Megatron-LM) on [openresearcher-dataset](https://huggingface.co/datasets/OpenResearcher/OpenResearcher-Dataset). To get started, clone the `openresearcher` branch of the Megatron-LM repository:
 ```
-git clone -b openresearcher https://github.com/jdf/Megatron-LM.git
+git clone -b openresearcher https://github.com/jdf-prog/Megatron-LM.git
 ```
 Then, follow the training instructions [here](https://github.com/jdf-prog/Megatron-LM/tree/openresearcher/examples/openresearcher) to train your own OpenResearcher!
 
