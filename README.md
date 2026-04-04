@@ -25,7 +25,7 @@
 </p>
 
 ## 📣 News 
-+ **[2026.3.25]** 🚀 OpenResearcher hit #2 on [Hugging Face Daily Papers](https://huggingface.co/papers/2603.20278)! 
++ **[2026.3.25]** 🚀 OpenResearcher hit **#2** on [Hugging Face Daily Papers](https://huggingface.co/papers/2603.20278)! 
 + **[2026.3.24]** 🔥 **OpenResearcher [paper](https://huggingface.co/papers/2603.20278) is now available**, highlighting practical insights into deep research pipeline design. Already adopted by **NVIDIA's Nemotron family of models**!
 + **[2026.2.25]** Honored to be among the **top 3 trending datasets** on 🤗 [Hugging Face](https://huggingface.co/datasets) — now **11K+** downloads! 
 + **[2026.2.18]** The OpenResearcher training [code](https://github.com/TIGER-AI-Lab/OpenResearcher?tab=readme-ov-file#-optional-train-your-own-openresearcher) is now available. Start training your own OpenResearcher!
